@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Batochir's profile</title>
+  <meta name="description" content="Profile page for Batochir." />
+  <style>
+    :root { --max-width:700px; --accent:#0366d6; --muted:#666; }
+    body { font-family:system-ui, -apple-system, "Segoe UI", Roboto, Arial; margin:1rem; color:#111; line-height:1.5; }
+    .container { max-width:var(--max-width); margin:0 auto; padding:1rem; }
+    .profile { display:flex; gap:1rem; align-items:center; }
+    .profile img { width:120px; height:120px; object-fit:cover; border-radius:8px; }
+    h1 { margin:0 0 .25rem 0; }
+    .muted { color:var(--muted); }
+    ol.apps { padding-left:1.2rem; }
+    .contact a { color:var(--accent); text-decoration:none; }
+    .contact a:hover { text-decoration:underline; }
+  </style>
+</head>
+<body>
+  <main class="container" role="main">
+    <header class="profile" aria-label="Profile header">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFiFJrOzuh4UQbl7QiWZ4liowdFr76etdhow&s"
+           alt="Portrait of Batochir" width="120" height="120">
+      <div>
+        <h1>Batochir</h1>
+        <p class="muted">Age: 14</p>
+      </div>
+    </header>
+
+    <section aria-labelledby="fav-apps">
+      <h2 id="fav-apps">Top favourite apps</h2>
+      <ol class="apps" aria-label="Top apps list">
+        <li>YouTube</li>
+        <li>Facebook</li>
+        <li>Messenger</li>
+        <li>App 4 (add name)</li>
+        <li>App 5 (add name)</li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="contact">
+      <h2 id="contact">Contact</h2>
+      <p class="contact">
+        <a href="https://www.facebook.com/share/1JVAv3sLRy/" target="_blank" rel="noopener noreferrer">My Facebook</a>
+        <br>
+        <a href="https://youtube.com/@baik-v5z?si=QSyD9BgZXnPHFClf" target="_blank" rel="noopener noreferrer">My YouTube</a>
+      </p>
+    </section>
+  </main>
+</body>
+</html>
